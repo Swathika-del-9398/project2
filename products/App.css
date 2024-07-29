@@ -1,0 +1,50 @@
+/* Styles for the entire app container */
+.app-container {
+  background-color:rgb(146, 99, 146);
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+/* Heading styles */
+.app-heading {
+  color: rgb(30, 3, 153);
+  font-family:initial;
+}
+
+/* Search input styles */
+.search-input {
+  width: 400px;
+}
+
+/* Product list styles */
+.product-list {
+  background-color:rgb(146, 99, 146); /* Darker background color for the product list */
+  padding: 20px;
+}
+
+/* Product card styles */
+.product-card {
+  height: auto; /* Adjust height based on card content */
+  margin-bottom: 30px;
+  background-color: #5e8fac; /* Background color for each product card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth effect */
+}
+
+/* Product image styles */
+.product-image {
+  height: 300px; /* Adjust image height */
+  width: 100%;
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+/* Button styles */
+.btn-warning {
+  background-color: #ffc107; /* Bootstrap warning color */
+  border-color: #ffc107; /* Bootstrap warning color */
+  color: #212529; /* Text color */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker shade of warning color on hover */
+  border-color: #e0a800; /* Darker shade of warning color on hover */
+}
